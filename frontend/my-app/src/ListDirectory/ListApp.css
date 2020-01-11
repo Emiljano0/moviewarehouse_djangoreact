@@ -1,0 +1,83 @@
+body {
+    background-color:#DCD9CD ;
+}
+
+div.row {
+    padding-top: 60px;
+    text-align:center;
+}
+
+a.myLogo {
+    font-family: 'Courgette';
+    font-size: 24px;
+}
+
+img.posterImg {
+    padding-bottom:10px;
+    width:250px;
+    background-color:black;
+    height:350px;
+}
+
+a.anchorTitle {
+    text-decoration:none;
+}
+
+div.inlinemod {
+    display:inline-block;
+    background-color:black;
+    margin-bottom:50px;
+    width:250px;
+    box-shadow: 0px 10px 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    div.col-md-4 {
+       padding-top: 60px;
+        text-align:center;
+    }
+
+    img.posterImg {
+        padding-bottom:10px;
+        width:200px;
+        background-color:black;
+        height:300px;
+    }
+
+    div.inlinemod{
+        width:200px;
+    }
+
+    }
+
+
+@media only screen and (min-width: 1024px) {
+
+    img.posterImg {
+        width:300px;
+        height:450px;
+    }
+
+    div.inlinemod{
+        width:300px;
+    }
+
+    }
+
+
+@media only screen and (min-width: 1500px) {
+
+    img.posterImg {
+        padding-bottom:10px;
+        width:450px;
+        background-color:black;
+        height:600px;
+    }
+
+    div.inlinemod{
+        width:450px;
+    }
+
+    }
